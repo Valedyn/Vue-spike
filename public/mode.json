@@ -1,0 +1,16 @@
+{
+    "modes":[
+        {
+            "mode": "default",
+            "cssfile": "./css/default.css"
+        },
+        {
+            "mode": "pink",
+            "cssfile": "./css/pink.css"
+        },
+        {
+            "mode": "blue",
+            "cssfile": "./css/blue.css"
+        }
+    ]
+}

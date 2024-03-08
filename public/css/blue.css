@@ -1,0 +1,11 @@
+#center{
+    background-color: lightblue;
+}
+
+#left, #right {
+    background-color: cornflowerblue;
+}
+
+body {
+    background-color: steelblue;
+}

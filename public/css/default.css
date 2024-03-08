@@ -1,0 +1,11 @@
+#center{
+    background-color: aqua;
+  }
+
+#left, #right {
+    background-color: cadetblue;
+  }
+
+body {
+    background-color: darkcyan;
+}
