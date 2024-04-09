@@ -1,13 +1,16 @@
-FROM node:20
+FROM node:20-alpine
 
-RUN mkdir app
+RUN mkdir /app
+WORKDIR /app
 
-WORKDIR app
+COPY . /app
 
-COPY dist ./
+RUN npm install
+RUN npm run build
 
 EXPOSE 8080
 
+WORKDIR /app/dist
 RUN npm install -g serve
 
 CMD ["serve", "-s", ".", "-l", "8080"]
